@@ -6,8 +6,8 @@ import time
 import network
 from led import *
 
-ssid = "Tenda-109"
-password = "15937644329"
+ssid = "wifi_name"
+password = "password"
 
 def wifi_connect():
     wlan = network.WLAN(network.STA_IF)     #使用STA模式
